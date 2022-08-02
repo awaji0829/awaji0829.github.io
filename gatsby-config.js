@@ -1,4 +1,5 @@
 module.exports = {
+  // pathPrefix: "/awajino_blog",
   siteMetadata: {
     title: `Gatsby Starter Blog`,
     author: {
@@ -51,12 +52,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `G-WGQ1VP2J0Z`,
+      },
+    },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
