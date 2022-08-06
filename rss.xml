@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[잘 안다는 기준은 우리 엄마한테 설명할 수 있어야 한다.]]></description><link>https://awaji0829.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 06 Aug 2022 14:38:28 GMT</lastBuildDate><item><title><![CDATA[불변성을 이해해보자?]]></title><description><![CDATA[이해를 하며 가졌던 의문들을 나열하며 머릿속에 들어온 개념들을 내 식으로 정리해본다. 
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[잘 안다는 기준은 우리 엄마한테 설명할 수 있어야 한다.]]></description><link>https://awaji0829.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 06 Aug 2022 14:43:12 GMT</lastBuildDate><item><title><![CDATA[불변성을 이해해보자?]]></title><description><![CDATA[이해를 하며 가졌던 의문들을 나열하며 머릿속에 들어온 개념들을 내 식으로 정리해본다. 
 불변성을 모르던 이에게 쉽게 이해시킬 수 있는 수준이 이 글의 목표다. 불변성 ? 불변함을 의미하는 단어이다. 프로그래밍에서 immutability…]]></description><link>https://awaji0829.gatsbyjs.io/about-immutability/</link><guid isPermaLink="false">https://awaji0829.gatsbyjs.io/about-immutability/</guid><pubDate>Sat, 06 Aug 2022 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;이해를 하며 가졌던 의문들을 나열하며 머릿속에 들어온 개념들을 내 식으로 정리해본다. &lt;br/&gt;
 불변성을 모르던 이에게 쉽게 이해시킬 수 있는 수준이 이 글의 목표다.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -140,6 +140,8 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 조금 더 자바스크립트가 돌아가는 자세한 개념들을 익히기 시작하자 이러한 것들이 이해가 되기 시작했다.&lt;/p&gt;
 &lt;p&gt;당장 이해가 되지 않는다 하여 어렵네~ 하고 피하는 것 보단 끈질기게 시간을 두고 본다면 &lt;br/&gt;
 결국에 이해될 일이었다. &lt;br/&gt;&lt;br/&gt; 그러니 뭐든지 겁먹고 피하지 말자. 결국엔 마주해야 될텐데&lt;/p&gt;
+&lt;h3&gt;ref&lt;/h3&gt;
+&lt;p&gt;코어 자바스크립트 - 정재남&lt;/p&gt;
 &lt;!--
 [salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
 
