@@ -1,16 +1,13 @@
 module.exports = {
   // pathPrefix: "/awajino_blog",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `강민지 기술블로그`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `awaji`,
+      summary: `기록을 생활화 하자`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `잘 안다는 기준은 우리 엄마한테 설명할 수 있어야 한다.`,
+    siteUrl: `https://awaji0829.gatsbyjs.io/`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -58,6 +55,19 @@ module.exports = {
         trackingId: `G-WGQ1VP2J0Z`,
       },
     },
+
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        // You can add multiple tracking ids and a pageview event will be fired for all of them.
+        trackingIds: [
+          "G-WGQ1VP2J0Z", // 설정 Google Analytics / GA
+          // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
+          // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
+        ],
+      },
+    },
+
     {
       resolve: `gatsby-plugin-feed`,
       options: {
