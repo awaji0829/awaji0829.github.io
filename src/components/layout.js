@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { Toggle } from "../components/Toggle"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -22,9 +23,24 @@ const Layout = ({ location, title, children }) => {
 
   return (
     <div className="global-wrapper" data-is-root-path={isRootPath}>
-      <header className="global-header">{header}</header>
+      <Toggle />{" "}
+      <header
+        className="global-header"
+        style={{
+          backgroundColor: "var(--bg)",
+          color: "var(--point)",
+          // transition: "color 0.2s ease-out, background 0.2s ease-out",
+        }}
+      >
+        {header}
+      </header>
       <main>{children}</main>
-      <footer>
+      <footer
+        style={{
+          color: "var(--textNormal)",
+          // transition: "color 0.2s ease-out, background 0.2s ease-out",
+        }}
+      >
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>

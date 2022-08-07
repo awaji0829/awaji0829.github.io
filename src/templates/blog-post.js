@@ -18,11 +18,20 @@ const BlogPostTemplate = ({
         itemScope
         itemType="http://schema.org/Article"
       >
-        <header>
+        <heade
+          style={{
+            color: "var(--textNormal)",
+            // transition: "color 0.2s ease-out, background 0.2s ease-out",
+          }}
+        >
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
           <p>{post.frontmatter.date}</p>
-        </header>
+        </heade>
         <section
+          style={{
+            color: "var(--textNormal)",
+            // transition: "color 0.2s ease-out, background 0.2s ease-out",
+          }}
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
         />

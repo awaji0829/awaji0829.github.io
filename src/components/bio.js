@@ -43,8 +43,14 @@ const Bio = () => {
         alt="Profile picture"
       />
       {author?.name && (
-        <p>
-          우당탕탕
+        <p
+          style={{
+            color: "var(--textNormal)",
+
+            // transition: "color 0.2s ease-out, background 0.2s ease-out",
+          }}
+        >
+          남에게 쉽게 설명해줄 수 있을 때<br/> 비로소 안다고 할 수 있다.
           {` `}
         </p>
       )}
