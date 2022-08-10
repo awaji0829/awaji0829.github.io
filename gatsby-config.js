@@ -1,7 +1,7 @@
 module.exports = {
   // pathPrefix: "/awajino_blog",
   siteMetadata: {
-    title: `강민지 기술블로그`,
+    title: `MINJI'S PLAYGROUND`,
     author: {
       name: `awaji`,
       summary: `기록을 생활화 하자`,
@@ -10,6 +10,7 @@ module.exports = {
     siteUrl: `https://awaji0829.gatsbyjs.io/`,
   },
   plugins: [
+    "gatsby-plugin-dark-mode",
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

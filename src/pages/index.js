@@ -30,8 +30,20 @@ const BlogIndex = ({ data, location }) => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
-            <li key={post.fields.slug}>
+            <li
+              key={post.fields.slug}
+              style={{
+                padding: "40px",
+                border: "3px solid var(--cardbg)",
+                borderRadius: "10px",
+                // transition: "color 0.2s ease-out, background 0.2s ease-out",
+              }}
+            >
               <article
+                style={{
+                  margin: 0,
+                  // transition: "color 0.2s ease-out, background 0.2s ease-out",
+                }}
                 className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
@@ -39,13 +51,32 @@ const BlogIndex = ({ data, location }) => {
                 <header>
                   <h2>
                     <Link to={post.fields.slug} itemProp="url">
-                      <span itemProp="headline">{title}</span>
+                      <span
+                        itemProp="headline"
+                        style={{
+                          color: "var(--textNormal)",
+                          // transition: "color 0.2s ease-out, background 0.2s ease-out",
+                        }}
+                      >
+                        {title}
+                      </span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small
+                    style={{
+                      color: "var(--textNormal)",
+                      // transition: "color 0.2s ease-out, background 0.2s ease-out",
+                    }}
+                  >
+                    {post.frontmatter.date}
+                  </small>
                 </header>
                 <section>
                   <p
+                    style={{
+                      color: "var(--textNormal)",
+                      // transition: "color 0.2s ease-out, background 0.2s ease-out",
+                    }}
                     dangerouslySetInnerHTML={{
                       __html: post.frontmatter.description || post.excerpt,
                     }}
